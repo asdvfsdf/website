@@ -3,26 +3,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
 
 body{
+    margin: 0%;
     font-family: 'Playfair Display', serif;;
 }
 
 :root{
     --primary:#396dff;
+
+    --small: 20px;
 }
 
 .navtitle{
     color: #396dff;
     font-size: 20px;
+    margin: 0%;
     margin:0;
     font-weight: normal;
 
 }
 
 .navContainer{
-    background-color: blanchedalmond;
+    background-color: rgb(39, 36, 31);
 }
 
 .u-txtcenter{
     text-align: center;
 
+}
+
+.avator{
+    border-radius: var(--small);
+}
+
+.u-flex{
+    display: flex;
 }
